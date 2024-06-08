@@ -19,7 +19,7 @@ def web_search(query: str, search_engine: str = "google", result_count: int = 3,
     search = GoogleSearch({
         "engine": search_engine,
         "q": full_query,
-        "api_key": "YOUR_WEB_SEARCH_API_KEY",
+        "api_key": "your_api_key_goes_here",
         "num": result_count
     })
     
